@@ -53,7 +53,7 @@ namespace VulnerableApp
             string filePath = @"C:\Users\Public\" + filename;
             if (File.Exists(filePath))
             {
-                string content = File.ReadAllText(filePath);
+          
                 Console.WriteLine("File content: " + content);
             }
             else
